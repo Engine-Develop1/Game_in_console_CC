@@ -1,0 +1,28 @@
+﻿database
+	string[] Rooms = {room1,room2,room3,room4,room5}
+
+	PlayerRoom = room2
+
+	void GetRoom(int roomindex)
+	{
+		//take the players room and set as the PlayerRoom
+		switch(roomindex)
+		{
+			case 1:
+			PlayerRoom = Rooms[roomindex - 1];
+			break;
+			...
+		}
+	}
+
+get a over all Map with
+level 1 = 5 rooms 11 enemys
+level 2 = 7 rooms 16 enemys
+level 3 = 10 rooms 21 enemys
+level 4 = 14 rooms 26 enemys
+level 5 = 17 rooms 31 enemys
+level 6 = 20 rooms 38 enemys
+level 7 = 22 rooms 44 enemys
+on +2 rooms + 2 enemys
+
+int Rooms = what
